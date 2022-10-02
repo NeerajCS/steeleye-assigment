@@ -1,12 +1,12 @@
 # steeleye-assigment
 
-#ANS 1
+Q- Explain what the simple List component does.
 
 List is used to store multiple items of the same and different datatype under a variable. It is basically an array. We can perform various operations on it such as .map() to loop over the list/array to list down all the elements.
 The wrappedListComponent returns a memoized components list. By memoized it states that it doesn't re-render unnecessarily
 that is if the component's props don't change it doesn't re-render. The memo is used to make website speed more efficient and perform better. As long as the title and release date properties are the same between renderings, React reuses the memoized content.
 
-#ANS 2
+Q-What problems / warnings are there with code?
 
 1. Uncaught TypeError: prop_types_WEBPACK_IMPOR TED_MODULE_2_default(...).s hapeof is not a function
 
